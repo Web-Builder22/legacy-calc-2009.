@@ -1,0 +1,23 @@
+#--------------------------------------------------------------------------- 
+# Project related configuration options
+#--------------------------------------------------------------------------- 
+PROJECT_NAME           = "Loan EMI Calculator"
+PROJECT_BRIEF          = "A loan calculation project with EMI and Google Tests"
+OUTPUT_DIRECTORY       = docs
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+INPUT                  = .
+RECURSIVE              = YES
+
+EXTRACT_ALL            = YES
+OPTIMIZE_OUTPUT_FOR_C  = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+GENERATE_TREEVIEW      = YES
+FULL_PATH_NAMES        = NO
+
+QUIET                  = NO
+WARN_IF_UNDOCUMENTED   = YES
+WARNINGS               = YES
