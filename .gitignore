@@ -1,0 +1,42 @@
+# Build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Compiled application
+loan_app
+test_app
+a.out
+
+# VS Code settings
+.vscode/
+
+# CMake build folders
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.log
+
+# Doxygen output
+docs/html/
+docs/latex/
+
+# GoogleTest build files
+*.gcda
+*.gcno
+
+# OS files
+.DS_Store
+Thumbs.db
